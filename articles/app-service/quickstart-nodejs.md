@@ -65,7 +65,7 @@ In this step, you create a basic Node.js application and ensure it runs on your 
 1. Start the development server with debug information.
 
     ```bash
-    DEBUG=myexpressapp:* npm start
+    SET DEBUG=myexpressapp:* & npm start
     ```
 
 1. In a browser, navigate to `http://localhost:3000`. You should see something like this:
